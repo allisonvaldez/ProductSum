@@ -1,16 +1,18 @@
-# This is a sample Python script.
-
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+"""
+Allison Valdez
+Time complexity: O(n) where n is the total number of elements in the array
+Space complexity: O(d) where d is the level of depth required of the array
+"""
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+def product_sum(array, multiplier=1):
+    summation = 0
+    for x in array:
+        if type(x) is list:
+            summation += product_sum(x, multiplier + 1)
+        else:
+            summation += x
+    return summation * multiplier
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+print(product_sum([5, 2, [7, -1], 3, [6, [-13, 8], 4]]))

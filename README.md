@@ -14,7 +14,7 @@ inside itself are added together then multiplied by the level of depth
 RUN STEP 4 BELOW BEFORE SUBMITTING LABS** 
 
 1. Download and install Python on your computer
-2. Navigate to the [NthFibonacciSol3.Mod1]() directory
+2. Navigate to the [ProductSum.Mod1]() directory
 3. Run the program as a module: `python -m Mod1 -h`. This will print the help 
    message.
 4. Run the program as a module (with real inputs): `python -m Mod1`
@@ -45,7 +45,7 @@ Usage statements are very formalized
 
 The following was my project's package layout:
 
-* NthFibonacciSol3.Mod1/: `The parent or "root" folder containing all of the 
+* ProductSum.Mod1/: `The parent or "root" folder containing all of the 
   projecs files`
     * README.md:
       `The README files that describes my programs and the nuances needed 
