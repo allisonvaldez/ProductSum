@@ -1,9 +1,12 @@
 # Coding Practice: Product Sum
 This project is meant for me to practice coding interview questions with Python.
 I am presented with the following task: write a function that takes in a 
-special array and returns its product sum.
+special array and returns its product sum. 
 
-Important to note
+Important note:
+The product sum of a special array is the sum of its elements: the array 
+inside itself are added together then multiplied by the level of depth 
+(usually denoted by square brackets or parenthesis '[]' or '{}').
 
 
 ## Running The Project
